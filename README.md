@@ -29,6 +29,6 @@
 | Pepa          | Vagera        | 2.E  |
 | Jakub         | Malý          | 3.B  |
 ## Video
-Screaming horse
+#### Screaming horse
 [![IMAGE ALT TEXT HERE|50x50](https://obchodhorze.cz/dw/image/v2/AATB_PRD/on/demandware.static/-/Sites-main-catalog/default/dwcf4aeb62/horze/58158_RE_1.jpeg?sw=1600&q=100&filename=horze-hobby-horse-red.jpg|width=50px)](https://www.youtube.com/watch?v=9wZZVmHfKCY)
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+
