@@ -1,7 +1,12 @@
 # gyarab-2023_wa_sz_vagera
+# Obsah
+-[Obrazek](#Obrazek)
 
-gyarab/2023_wa_sz_vagera
+-[Seznam](#Seznam)
 
+-[Odkaz](#Odkaz)
+
+-[Tabulka](#Tabulka)
 ## Obrazek
 ![Oko](https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg)
 ## Seznam
