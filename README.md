@@ -1,5 +1,6 @@
 # gyarab-2023_wa_sz_vagera
 # Obsah
+***
 -[Obrázek](#Obrázek) 
 
 -[Seznam](#Seznam)
@@ -10,6 +11,7 @@
 
 -[Video](#Video)
 ## Obrázek
+***
 ![Oko](https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg)
 ## Seznam
 ***
@@ -19,9 +21,11 @@
 4. São Paulo, Brazil - 21.8 million people.
 5. Mexico City, Mexico - ~~21.6 million people.~~
 ## Odkaz
+***
 * Odkaz 1 : [Github](https://github.com/gyarab/2023_wa_sz_vagera)
 * Odkaz 2 : [Gymnazium Arabská](https://www.gyarab.cz/)
 ## Tabulka
+***
 | Jméno         | Příjmení      | Třída    |
 | ------------- | ------------- | -------- |
 | Petr          | Krátký        | 1.E  |
@@ -29,6 +33,7 @@
 | Pepa          | Vagera        | 2.E  |
 | Jakub         | Malý          | 3.B  |
 ## Video
+***
 #### Screaming horse
 [![IMAGE ALT TEXT HERE|50x50](https://obchodhorze.cz/dw/image/v2/AATB_PRD/on/demandware.static/-/Sites-main-catalog/default/dwcf4aeb62/horze/58158_RE_1.jpeg?sw=1600&q=100&filename=horze-hobby-horse-red.jpg|width=50px)](https://www.youtube.com/watch?v=9wZZVmHfKCY)
 
