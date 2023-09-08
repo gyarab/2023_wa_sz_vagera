@@ -11,9 +11,6 @@ gyarab/2023_wa_sz_vagera
 3. Shanghai, China - 26.3 million people.
 4. São Paulo, Brazil - 21.8 million people.
 5. Mexico City, Mexico - 21.6 million people.
-
-
-
-* [Technology name](https://example.com): Version 12.3 
-* [Technology name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
+## Odkaz
+* Odkaz 1 : [Github](https://github.com/gyarab/2023_wa_sz_vagera)
+* Odkaz 2 : [Gymnazium Arabska](https://www.gyarab.cz/)
