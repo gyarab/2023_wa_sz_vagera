@@ -1,0 +1,2 @@
+# gyarab-2023_wa_sz_vagera
+# Obsah
