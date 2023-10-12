@@ -4,7 +4,7 @@
 ***
 Šedá
 
-Šedivé barvy na logu Applu zdůrazňují vyrovnanost a neutralitu firmy. Zároveň nepříliš výrazná šedivá barva působí dojem čistoty, na který společnost cílí. Dále tato barva velice estetická a hodí se k barvám zařínení Applu (bílá černá, šedivá).
+Šedivé barvy na logu Applu zdůrazňují vyrovnanost a neutralitu firmy. Zároveň nepříliš výrazná šedivá barva působí dojem čistoty, na který společnost cílí. Dále tato barva velice estetická, působí industriálně a hodí se k barvám zařínení Applu (bílá, černá a šedivá).
 
 
 
@@ -24,7 +24,7 @@ Modrá (0BCCD4)
 ***
 Červená (E11f1f)
 
--Červená působí provokativní a dává dodává energii
+-Červená působí provokativně a dává dodává energii
 ***
 Zelená (A1D60F)
 
