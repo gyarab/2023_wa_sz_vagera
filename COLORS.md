@@ -11,22 +11,22 @@
 ***
 ![Yellow](https://placehold.co/248x248/F5D600/FFF)
 ![Blue](https://placehold.co/248x248/0BCCD4/FFF)
-![Red](https://placehold.co/248x248/EB4516/FFF)
+![Red](https://placehold.co/248x248/E11f1f/FFF)
 ![Green](https://placehold.co/248x248/A1D60F/FFF)
 ***
-Žlutá
+Žlutá (F5D600)
 
--radostná, zahřívá
+-Žlutá je radostná barva a navozuje dává dojem zahřívání
 ***
-Modrá
+Modrá (0BCCD4)
 
--klidná, má tišící efekt
+-Světle modrá je klidná barná a navozuje tišící efekt
 ***
-Červená 
+Červená (E11f1f)
 
--provokativní, dodává energii
+-Červená působí provokativní a dává dodává energii
 ***
-Zelená
+Zelená (A1D60F)
 
--svěží, působí dojmem přírody
+-Světle zelená barva působí svěže a dále také působí dojmem přírody
 
