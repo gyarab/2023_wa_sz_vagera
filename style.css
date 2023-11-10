@@ -1,0 +1,26 @@
+.rotate_image {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.cervena{
+    color: rgb(255, 0, 0);
+}
+.modra{
+    color: rgb(0, 60, 255);
+}
+.zluta{
+    color: rgb(255, 230, 0);
+}
+ p{
+  line-height: 150%;
+ }
+h{
+    color: green;
+}
+p.male{
+  line-height: 2;
+  font-size: 50%;
+}
