@@ -84,9 +84,28 @@
          působí jako <big>jakási</big> fata morgána uprostřed pouště. Zkrátka široko daleko nikde nic,
          jen zelenkavá tráva, jasně modrá obloha <sup>a</sup> tři křiklavě barevné pouťové balónky, které se téměř nepozorovatelně pohupují ani ne moc vysoko,
          ani moc nízko nad zemí. </p>
-      </div>
+         <center>
+         <button widght ="100px" onclick="zmen()">Press me</button>
+         </center>
+         <script>
+          var open = false;
+          function zmen(){
+            open  = !open;
+            const m = document.getElementById("img2");   
+            if(open == true ){
+              m.style.display = "block";
+            }else{
+              m.style.display = "none";   
+            }
+           console.log(m);
+           console.log(open);
+          }
+         </script>
+       <center>
       <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Blue_Marble_%28remastered%29.jpg" width="400px" height="400px" alt="map">
+      <img id="img2" style="display: none;" src="https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Blue_Marble_%28remastered%29.jpg" width="400px" height="400px" alt="map">
       <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Blue_Marble_%28remastered%29.jpg" width="400px" height="400px" alt="map">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Blue_Marble_%28remastered%29.jpg" width="400px" height="400px" alt="map">
+      </center>
+    </div>
     </body>
 </html>
