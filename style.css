@@ -24,3 +24,6 @@ p.male{
   line-height: 2;
   font-size: 50%;
 }
+img{
+    display: block;
+}
