@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .btntest {
+            height:250px;
+            width:250px;
+            background-image: url('img/backimg.png');
+            
+        }
+    </style>
+</head>
+<body>
+    <!--<button  class="btntest" style="background: url(img/backimg.png)" >This is button</button>-->
+    <button id="0" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="1" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="2"  class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="3"  class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="4" class="btntest"  onClick="zmen(this.id)" >This is button</button>
+    <br>
+    <button id="5" class="btntest" onClick="zmen(this.id)"  >This is button</button>
+    <button id="6" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="7" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="8" class="btntest" onClick="zmen(this.id)"  >This is button</button>
+    <button id="9" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <br>
+    <button id="10"  class="btntest" onClick="zmen(this.id)"  >This is button</button>
+    <button id="11" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="12"  class="btntest" onClick="zmen(this.id)"  >This is button</button>
+    <button id="13" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="14" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <br>
+    <button id="15" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="16" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="17" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="18" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="19" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <br>
+    <button id="20" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="21" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="22" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="23" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="24"  class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <br>
+    <button id="25" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="26" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="27" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="28" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <button id="29" class="btntest" onClick="zmen(this.id)" >This is button</button>
+    <br>
+    <script  type="text/javascript">
+        function find(){
+
+        }
+        var press1 = false;
+        var val1 = 123123;
+        var val2 = 48565;
+        var previous_id = 0; 
+        var press2 = false;
+        const array = [1,1,2, 2, 3,3, 4,4, 5,5, 6,6, 7,7, 8,8, 9,9, 10,10,11,11,12,12,13,13,14,14,15,15];
+        const shuffledArray = array.sort((a, b) => 0.5 - Math.random());
+        alert(shuffledArray);
+        
+        function zmen(clicked_id){
+          const m = document.getElementById(clicked_id);  
+          if(shuffledArray[clicked_id] == 1){
+            m.style.backgroundImage = 'url(https://placehold.co/245x245/7CFC00/FFF)'
+          }else{
+          m.style.backgroundImage = 'url(https://placehold.co/245x245/EB4516/FFF)';
+          }
+          
+          if(press1 ==false ){
+            press1 ==true;
+            val1 = shuffledArray[clicked_id];
+          }
+          if(press1== true){
+            press2 =true;
+            val2 = shuffledArray[clicked_id];
+          }
+          if(vla1 == val2){
+            press1 = false;
+            press2 = false;
+            m.ariaDisabled; 
+            const k = document.getElementById(previous_id);  
+            val1 = 45645;
+            val2 = 456451;
+          }else{
+          setTimeout(() => {
+            m.style.backgroundImage = 'url(img/backimg.png)';
+          },3000
+        
+          );
+        }
+          /*setTimeout(zmen,3000); 
+          m.style.backgroundImage = 'url(img/backimg.png)';*/
+          /*if(open == true ){
+            m.style.display = "block";
+          }else{
+            m.style.display = "none";   
+          }
+         console.log(m);
+         console.log(open);*/
+        }
+       </script>
+
+
+</body>
+</html>
