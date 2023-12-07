@@ -56,6 +56,9 @@
   <button id="28" class="btntest" onClick="zmen(this.id)"></button>
   <button id="29" class="btntest" onClick="zmen(this.id)"></button>
   <br>
+  <p id="y">Hrac na tahu 1</p>
+  <p id="pl_1">Body hrace 1 : 0</p>
+  <p id="pl_2">Body hrace 2 : 0</p>
   <script type="text/javascript">
   
  
@@ -66,6 +69,9 @@
     var previous_id = -1;
     var win = 0;
     var move = 0;
+    var pl1 = 0;
+    var pl2 = 0;
+    var turn = 0;
   
     const array = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15];
     const shuffledArray = array.sort((a, b) => 0.5 - Math.random());
@@ -123,12 +129,31 @@
           const k = document.getElementById(previous_id);
           k.disabled = true;
           move++;
-          if(win == 15){
-            alert("Vyhraliste v " +move
-                   +" - Pokud chcete hrat znovu aktualizujte stranku");
+          if(turn == 0){
+            pl1++;
+          }else{
+            pl2++;
           }
+          if(win == 15){
+            if(pl1> pl2){
+            alert("Hrac 1 vyhral v "+ move + " tazich s " + pl1+ " body");
+            }else if(pl2>pl1){
+              alert("Hrac 2 vyhral v "+ move + " tazich s " + pl2+ " body");
+            }else{
+              alert("Remiza v "+ move + " tazich s " + pl2+ " body");
+            }
+          }
+          document.getElementById('pl_1').innerHTML = "Body hrace 1 : " + pl1;
+          document.getElementById('pl_2').innerHTML = "Body hrace 2 : " + pl2;
         } else {
           move++;
+          if(turn == 0){
+            turn = 1;
+            document.getElementById('y').innerHTML = "Hrac 2 je na tahu";
+          }else{
+            turn = 0;
+            document.getElementById('y').innerHTML = "Hrac 1 je na tahu";
+          }
           const k = document.getElementById(previous_id);
           setTimeout(() => {
             m.style.backgroundImage = 'url(img/backimg.png)';
