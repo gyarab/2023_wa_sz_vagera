@@ -1,0 +1,13 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+ol{
+    padding: auto;
+    margin: auto;
+}
+li{
+    text-underline-position: below;
+    border-top: 1
+;
+}
